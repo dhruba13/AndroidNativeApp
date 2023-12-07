@@ -63,4 +63,6 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+//    my deps
+    implementation("io.coil-kt:coil-compose:2.5.0")
 }
