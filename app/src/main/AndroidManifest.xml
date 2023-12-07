@@ -30,7 +30,7 @@
         </activity>
 
         <provider
-            android:name="androidx.core.content.FileProvider"
+            android:name=".ComposeFileProvider"
             android:authorities="com.example.myapplication.fileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
